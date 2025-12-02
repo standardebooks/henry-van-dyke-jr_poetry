@@ -199,3 +199,7 @@ q,
 #who-follow-the-flag div:nth-of-type(7) > p:last-child{
 	font-style: italic;
 }
+
+#the-anglers-reveille p:nth-of-type(even) span:nth-of-type(n+5) i{
+	font-style: normal;
+}
