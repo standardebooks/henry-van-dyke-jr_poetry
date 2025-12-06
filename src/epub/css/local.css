@@ -90,7 +90,9 @@ p span.i10{
 
 [epub|type~="z3998:poem"] hgroup p,
 [epub|type~="z3998:song"] hgroup p,
-[epub|type~="z3998:hymn"] hgroup p{
+[epub|type~="z3998:hymn"] hgroup p,
+[epub|type~="z3998:poem"] div header p,
+[epub|type~="z3998:song"] div header p{
 	text-align: center;
 }
 
@@ -98,11 +100,6 @@ p span.i10{
 [epub|type~="z3998:song"] div header{
 	font-variant: small-caps;
 	margin-bottom: 1em;
-	text-align: center;
-}
-
-[epub|type~="z3998:poem"] div header p,
-[epub|type~="z3998:song"] div header p{
 	text-align: center;
 }
 
