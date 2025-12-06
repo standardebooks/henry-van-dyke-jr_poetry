@@ -34,57 +34,54 @@ article{
 	display: none;
 }
 
-p span.i1,
-p span.i2,
-p span.i3,
-p span.i4,
-p span.i5,
-p span.i6,
-p span.i7,
-p span.i8,
-p span.i9,
-p span.i10{
-	text-indent: -1em;
-}
-
 p span.i1{
 	padding-left: 2em;
+	text-indent: -1em;
 }
 
 p span.i2{
 	padding-left: 3em;
+	text-indent: -1em;
 }
 
 p span.i3{
 	padding-left: 4em;
+	text-indent: -1em;
 }
 
 p span.i4{
 	padding-left: 5em;
+	text-indent: -1em;
 }
 
 p span.i5{
 	padding-left: 6em;
+	text-indent: -1em;
 }
 
 p span.i6{
 	padding-left: 7em;
+	text-indent: -1em;
 }
 
 p span.i7{
 	padding-left: 8em;
+	text-indent: -1em;
 }
 
 p span.i8{
 	padding-left: 9em;
+	text-indent: -1em;
 }
 
 p span.i9{
 	padding-left: 10em;
+	text-indent: -1em;
 }
 
 p span.i10{
 	padding-left: 11em;
+	text-indent: -1em;
 }
 
 .dl2 span:first-child{
