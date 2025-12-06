@@ -103,7 +103,8 @@ p span.i10{
 	text-align: center;
 }
 
-[epub|type~="z3998:poem"] div header p + p{
+[epub|type~="z3998:poem"] div header p + p,
+[epub|type~="bridgehead"] p + p{
 	margin-top: 0;
 }
 
