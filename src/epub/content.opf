@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-GB">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/henry-van-dyke-jr/poetry</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2025-12-09T21:53:21Z</dc:date>
+		<meta property="dcterms:modified">2025-12-09T21:53:21Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -66,8 +66,8 @@
 		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">A collection of poems by the American author, educator, and clergyman Henry van Dyke Jr., exploring themes of nature, faith, love, and patriotism.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;This anthology assembles the verse of &lt;a href="https://standardebooks.org/ebooks/henry-van-dyke-jr"&gt;Henry van Dyke Jr.&lt;/a&gt;, drawn from a lifetime of output that stretched from the 1870s into the 1920s. His poems capture the breadth of his existence—both the outward man and the inner one—shifting seamlessly from odes to the raw beauty of the American wilderness to meditations steeped in unyielding Christian conviction. A substantial portion of the collection features the rousing patriotic pieces he penned while serving as a U.S. envoy in Europe as the guns of the Great War began to thunder.&lt;/p&gt;
-			&lt;p&gt;Born in 1852 and gone by 1933, van Dyke cut a towering figure in American letters and public life: a bestselling novelist, a steadfast Presbyterian minister, a Princeton professor, and a diplomat who rubbed shoulders with kings and presidents. While readers still cherish his heartwarming Christmas tales, like &lt;em&gt;The Other Wise Man&lt;/em&gt;, it was his poetry that anchored his enduring mark on the world. This collection includes his crowning hymn, “Hymn of Joy” (better known by its first line “Joyful, Joyful We Adore Thee”), as well as the poem “For Katrina’s Sun-Dial” (also known as “Time Is”), lines from which echoed through Westminster Abbey at the funeral of Diana, Princess of Wales.&lt;/p&gt;
+			&lt;p&gt;This anthology assembles the verse of &lt;a href="https://standardebooks.org/ebooks/henry-van-dyke-jr"&gt;Henry van Dyke Jr.&lt;/a&gt;, drawn from a lifetime of output that stretched from the 1870s into the 1920s. His poems capture the breadth of his existence—both the outward man and the inner one—shifting seamlessly from odes to the raw beauty of the American wilderness to meditations steeped in unyielding Christian conviction. A substantial portion of the collection comprises the rousing patriotic pieces he penned while serving as a U.S. envoy in Europe, as the guns of the Great War began to thunder.&lt;/p&gt;
+			&lt;p&gt;Born in 1852 and gone by 1933, van Dyke cut a towering figure in American letters and public life: a bestselling novelist, a steadfast Presbyterian minister, a Princeton professor, and a diplomat who rubbed shoulders with kings and presidents. While readers still cherish his heartwarming Christmas tales, like “The Other Wise Man,” it was his poetry that left his enduring mark on the world. This collection includes his crowning achievement, “Hymn of Joy” (better known by its first line “Joyful, Joyful We Adore Thee”), as well as the poem “For Katrina’s Sun-Dial” (also known as “Time Is”), lines from which echoed through Westminster Abbey at the funeral of Diana, Princess of Wales.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<!-- TRANSCRIPTIONS -->
@@ -236,9 +236,9 @@
 		<!-- Chosen Poems -->
 		<!-- Dear California; Ballad of Princeton Battle; Christ Our Comrade -->
 		<dc:source>https://archive.org/details/chosenpoems0000vand</dc:source>
-		<meta property="se:production-notes">The publishing order was maintained for this collection with the following exceptions: "Three Alpine Sonnets" is ordered according to the publication date of its third sonnet, "Twilight in the Alps," in 1909; its first and second sonnets were published in 1897. "Come Back Again, Jeanne d'Arc," while originally published in 1909, is placed directly before "Jeanne D'arc Returns" (1917), which "belongs with it" according to a footnote in the source text.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:production-notes">The publishing order is maintained for this collection with the following exceptions: "Three Alpine Sonnets" is ordered according to the publication date of its third sonnet, "Twilight in the Alps," in 1909; its first and second sonnets were published in 1897. "Come Back Again, Jeanne d'Arc," while originally published in 1909, is placed directly before "Jeanne D'arc Returns" (1917), which "belongs with it" according to a footnote in the source text.</meta>
+		<meta property="se:word-count">67734</meta>
+		<meta property="se:reading-ease.flesch">69.96</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/henry-van-dyke-jr_poetry</meta>
 		<dc:creator id="author">Henry van Dyke Jr.</dc:creator>
 		<meta property="file-as" refines="#author">Dyke, Henry van</meta>
@@ -299,6 +299,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Vince Rice</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Rice, Vince</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://www.brokenandsaved.com/</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
