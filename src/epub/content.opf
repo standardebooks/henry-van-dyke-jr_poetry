@@ -237,7 +237,7 @@
 		<!-- Dear California; Ballad of Princeton Battle; Christ Our Comrade -->
 		<dc:source>https://archive.org/details/chosenpoems0000vand</dc:source>
 		<meta property="se:production-notes">The publishing order is maintained for this collection with the following exceptions: "Three Alpine Sonnets" is ordered according to the publication date of its third sonnet, "Twilight in the Alps," in 1909; its first and second sonnets were published in 1897. "Come Back Again, Jeanne d'Arc," while originally published in 1909, is placed directly before "Jeanne D'arc Returns" (1917), which "belongs with it" according to a footnote in the source text.</meta>
-		<meta property="se:word-count">67734</meta>
+		<meta property="se:word-count">67053</meta>
 		<meta property="se:reading-ease.flesch">69.96</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/henry-van-dyke-jr_poetry</meta>
 		<dc:creator id="author">Henry van Dyke Jr.</dc:creator>
