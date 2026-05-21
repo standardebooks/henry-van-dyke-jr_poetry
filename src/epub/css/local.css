@@ -104,7 +104,7 @@ p span.i10{
 }
 
 [epub|type~="z3998:poem"] div header p + p,
-[epub|type~="bridgehead"] p + p{
+[epub|type~="se:bridgehead"] p + p{
 	margin-top: 0;
 }
 
@@ -115,7 +115,7 @@ p span.i10{
 
 /* Bridgeheads */
 [epub|type~="z3998:introductory-note"],
-[epub|type~="bridgehead"]{
+[epub|type~="se:bridgehead"]{
 	display: inline-block;
 	font-style: italic;
 	max-width: 60%;
@@ -123,7 +123,7 @@ p span.i10{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:poem"] [epub|type~="bridgehead"] p{
+[epub|type~="z3998:poem"] [epub|type~="se:bridgehead"] p{
 	text-align: justify;
 }
 
