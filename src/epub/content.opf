@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-GB">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-GB">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/henry-van-dyke-jr/poetry</dc:identifier>
 		<dc:date>2025-12-09T21:53:21Z</dc:date>
 		<meta property="dcterms:modified">2025-12-09T21:53:21Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -62,8 +63,8 @@
 		<meta property="term" refines="#subject-10">sh86005457</meta>
 		<meta property="authority" refines="#subject-11">LCSH</meta>
 		<meta property="term" refines="#subject-11">sh2008113814</meta>
-		<meta property="se:subject">Poetry</meta>
-		<meta property="se:is-a-collection">true</meta>
+		<meta property="schema:genre">Poetry</meta>
+		<meta property="schema:additionalType">http://schema.org/Collection</meta>
 		<dc:description id="description">A collection of poems by the American author, educator, and clergyman Henry van Dyke Jr., exploring themes of nature, faith, love, and patriotism.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;This anthology assembles the verse of &lt;a href="https://standardebooks.org/ebooks/henry-van-dyke-jr"&gt;Henry van Dyke Jr.&lt;/a&gt;, drawn from a lifetime of output that stretched from the 1870s into the 1920s. His poems capture the breadth of his existence—both the outward man and the inner one—shifting seamlessly from odes to the raw beauty of the American wilderness to meditations steeped in unyielding Christian conviction. A substantial portion of the collection comprises the rousing patriotic pieces he penned while serving as a U.S. envoy in Europe, as the guns of the Great War began to thunder.&lt;/p&gt;
@@ -236,19 +237,20 @@
 		<!-- Chosen Poems -->
 		<!-- Dear California; Ballad of Princeton Battle; Christ Our Comrade -->
 		<dc:source>https://archive.org/details/chosenpoems0000vand</dc:source>
-		<meta property="se:production-notes">The publishing order is maintained for this collection with the following exceptions: "Three Alpine Sonnets" is ordered according to the publication date of its third sonnet, "Twilight in the Alps," in 1909; its first and second sonnets were published in 1897. "Come Back Again, Jeanne d'Arc," while originally published in 1909, is placed directly before "Jeanne D'arc Returns" (1917), which "belongs with it" according to a footnote in the source text.</meta>
-		<meta property="se:word-count">67049</meta>
-		<meta property="se:reading-ease.flesch">69.96</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/henry-van-dyke-jr_poetry</meta>
+		<meta property="schema:wordCount">67049</meta>
+		<meta property="schema:educationalLevel">69.96</meta>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/henry-van-dyke-jr_poetry" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Henry van Dyke Jr.</dc:creator>
 		<meta property="file-as" refines="#author">Dyke, Henry van</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Henry_van_Dyke_Jr.</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50045062</meta>
+		<link href="https://en.wikipedia.org/wiki/Henry_van_Dyke_Jr." refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50045062.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Robert Walter Weir</dc:contributor>
 		<meta property="file-as" refines="#artist">Weir, Robert Walter</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Robert_Walter_Weir</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n85028285</meta>
+		<link href="https://en.wikipedia.org/wiki/Robert_Walter_Weir" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n85028285.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Jonathan Ingram</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Ingram, Jonathan</meta>
@@ -288,11 +290,11 @@
 		<meta property="role" refines="#transcriber-12" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-13">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-13">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-13">https://www.pgdp.net/</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-13" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-13" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">C. B. Bowman</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Bowman, C. B.</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://github.com/cbbowman</meta>
+		<link href="https://github.com/cbbowman" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -301,7 +303,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Vince Rice</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Rice, Vince</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://www.brokenandsaved.com/</meta>
+		<link href="https://www.brokenandsaved.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
