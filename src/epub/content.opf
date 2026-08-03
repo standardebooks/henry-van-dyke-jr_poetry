@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-GB">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-GB">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/henry-van-dyke-jr/poetry</dc:identifier>
 		<dc:date>2025-12-09T21:53:21Z</dc:date>
@@ -65,11 +65,11 @@
 		<meta property="term" refines="#subject-11">sh2008113814</meta>
 		<meta property="schema:genre">Poetry</meta>
 		<meta property="schema:additionalType">http://schema.org/Collection</meta>
-		<dc:description id="description">A collection of poems by the American author, educator, and clergyman Henry van Dyke Jr., exploring themes of nature, faith, love, and patriotism.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A collection of poems by the American author, educator, and clergyman Henry van Dyke Jr., exploring themes of nature, faith, love, and patriotism.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;This anthology assembles the verse of &lt;a href="https://standardebooks.org/ebooks/henry-van-dyke-jr"&gt;Henry van Dyke Jr.&lt;/a&gt;, drawn from a lifetime of output that stretched from the 1870s into the 1920s. His poems capture the breadth of his existence—both the outward man and the inner one—shifting seamlessly from odes to the raw beauty of the American wilderness to meditations steeped in unyielding Christian conviction. A substantial portion of the collection comprises the rousing patriotic pieces he penned while serving as a U.S. envoy in Europe, as the guns of the Great War began to thunder.&lt;/p&gt;
 			&lt;p&gt;Born in 1852 and gone by 1933, van Dyke cut a towering figure in American letters and public life: a bestselling novelist, a steadfast Presbyterian minister, a Princeton professor, and a diplomat who rubbed shoulders with kings and presidents. While readers still cherish his heartwarming Christmas tales, like “The Other Wise Man,” it was his poetry that left his enduring mark on the world. This collection includes his crowning achievement, “Hymn of Joy” (better known by its first line “Joyful, Joyful We Adore Thee”), as well as the poem “For Katrina’s Sun-Dial” (also known as “Time Is”), lines from which echoed through Westminster Abbey at the funeral of Diana, Princess of Wales.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<!-- TRANSCRIPTIONS -->
 		<!-- The Poems of Henry Van Dyke -->
