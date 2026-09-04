@@ -30,8 +30,8 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">Poetry</dc:title>
 		<meta property="file-as" refines="#title">Poetry</meta>
-		<dc:subject id="subject-1">American poetry -- 19th century</dc:subject>
-		<dc:subject id="subject-2">American poetry -- 20th century</dc:subject>
+		<dc:subject id="subject-1">American poetry--19th century</dc:subject>
+		<dc:subject id="subject-2">American poetry--20th century</dc:subject>
 		<dc:subject id="subject-3">Christian poetry, American</dc:subject>
 		<dc:subject id="subject-4">History, Modern</dc:subject>
 		<dc:subject id="subject-5">Hymns, English</dc:subject>
